@@ -16,7 +16,7 @@
 ## Paso a paso
 
 1. Ve a la página de **[Releases](../../../releases/latest)**.
-2. En **Assets**, haz clic en **`SchematicStudio-0.8.1-win-x64.zip`** para descargarlo.
+2. En **Assets**, haz clic en **`SchematicStudio-0.8.2-win-x64.zip`** para descargarlo.
 3. Busca el archivo en tu carpeta de **Descargas**, haz clic derecho → **Extraer todo…** → **Extraer**.
 4. Dentro de la carpeta, haz doble clic en **`SchematicStudio.exe`**.
 5. La primera vez Windows puede mostrar un aviso azul:

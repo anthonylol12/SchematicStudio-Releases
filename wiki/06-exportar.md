@@ -32,7 +32,7 @@ En el ejemplo (casa a `.schematic` 1.12.2) el informe avisa de que la **linterna
 
 | Formato | Carpeta | Cómo cargarlo |
 |---|---|---|
-| `.schem` / `.schematic` (WorldEdit) | `plugins/WorldEdit/schematics/` del servidor, o `config/worldedit/schematics/` en Fabric/Forge | `//schem load nombre` y luego `//paste` |
+| `.schem` / `.schematic` (WorldEdit) | `plugins/WorldEdit/schematics/` del servidor, o `config/worldedit/schematics/` en Fabric/Forge | `//schem load nombre.schem` y luego `//paste -a` (la `-a` no pega el aire y no borra el terreno) |
 | `.litematic` | `.minecraft/schematics/` | Menú de Litematica → *Load Schematics* |
 | `.nbt` | `<mundo>/generated/minecraft/structures/` | Bloque de estructuras en modo *Load*, o `/place template minecraft:nombre` |
 

@@ -40,3 +40,9 @@ En `%APPDATA%\SchematicStudio` (pega esa ruta en la barra del Explorador de arch
 
 ### ¿Qué hago si encuentro un error?
 Mira las pestañas **Registro**, **Advertencias** y **Errores** del panel inferior: ahí aparece lo que ha pasado. Anota el mensaje y los pasos para repetirlo.
+
+### En Minecraft 1.12.2 la construcción sale aplastada (una sola capa plana)
+Pasaba con los `.schematic` exportados con la versión 0.8.1 o anterior cuando la construcción venía de un mundo moderno a poca altura (por ejemplo, Y = −60): WorldEdit 6 la recortaba a la altura del mundo de 1.12.2. **Actualiza a la 0.8.2 o posterior y vuelve a exportarla.**
+
+### Al pegar con WorldEdit se borra el terreno alrededor
+`//paste` pega también el aire de la caja de la construcción. Usa **`//paste -a`** para pegar solo los bloques.

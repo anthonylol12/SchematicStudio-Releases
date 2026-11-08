@@ -4,6 +4,14 @@ Visor, editor y conversor de construcciones de Minecraft para Windows.
 
 Abre archivos **`.schem`** (WorldEdit), **`.schematic`** (MCEdit / Schematica), **`.litematic`** (Litematica) y **`.nbt`** (bloque de estructuras), los muestra en 3D con las texturas del juego y los convierte entre formatos y versiones de Minecraft (de 1.8 a las más recientes).
 
+![Schematic Studio](wiki/img/01_ventana_principal.png)
+
+## 📖 Guía para principiantes
+
+¿Primera vez? La **[guía paso a paso](wiki/README.md)** explica todo con capturas: instalar, abrir una construcción, convertirla a otra versión, exportarla, editarla y más.
+
+¿Quieres probar sin tener un archivo? Descarga la **[casa de ejemplo](ejemplos/casa_ejemplo.schem)** (botón «Download raw file») y ábrela con el programa.
+
 ## ⬇️ Descargar
 
 Ve a **[Releases](../../releases/latest)** y descarga **`SchematicStudio-0.8.0-win-x64.zip`**.

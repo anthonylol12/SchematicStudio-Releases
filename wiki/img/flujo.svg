@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="230" viewBox="0 0 960 230" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="230" rx="16" fill="#ffffff"/>
+  <defs>
+    <marker id="a" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#8a94a6"/></marker>
+  </defs>
+  <g font-size="15" text-anchor="middle">
+    <rect x="20" y="40" width="150" height="125" rx="14" fill="#e8f1ff" stroke="#3d7be0" stroke-width="2"/>
+    <text x="95" y="80" font-size="30">📂</text>
+    <text x="95" y="112" font-weight="bold" fill="#1d3a6e">1. Abrir</text>
+    <text x="95" y="134" fill="#4a5568" font-size="13">.schem .schematic</text>
+    <text x="95" y="150" fill="#4a5568" font-size="13">.litematic .nbt</text>
+
+    <rect x="205" y="40" width="150" height="125" rx="14" fill="#e9f8ee" stroke="#2f9e5b" stroke-width="2"/>
+    <text x="280" y="80" font-size="30">👀</text>
+    <text x="280" y="112" font-weight="bold" fill="#1b5e36">2. Mirar</text>
+    <text x="280" y="134" fill="#4a5568" font-size="13">visor 3D, materiales,</text>
+    <text x="280" y="150" fill="#4a5568" font-size="13">estadísticas</text>
+
+    <rect x="390" y="40" width="150" height="125" rx="14" fill="#fff4e5" stroke="#e08a12" stroke-width="2"/>
+    <text x="465" y="80" font-size="30">🔄</text>
+    <text x="465" y="112" font-weight="bold" fill="#7a4a06">3. Convertir</text>
+    <text x="465" y="134" fill="#4a5568" font-size="13">a otra versión</text>
+    <text x="465" y="150" fill="#4a5568" font-size="13">(opcional)</text>
+
+    <rect x="575" y="40" width="150" height="125" rx="14" fill="#f3ecff" stroke="#8a5cd6" stroke-width="2"/>
+    <text x="650" y="80" font-size="30">✏️</text>
+    <text x="650" y="112" font-weight="bold" fill="#4b2b8a">4. Revisar</text>
+    <text x="650" y="134" fill="#4a5568" font-size="13">sustitutos, editar,</text>
+    <text x="650" y="150" fill="#4a5568" font-size="13">girar (opcional)</text>
+
+    <rect x="760" y="40" width="180" height="125" rx="14" fill="#e6f7f7" stroke="#169c9c" stroke-width="2"/>
+    <text x="850" y="80" font-size="30">💾</text>
+    <text x="850" y="112" font-weight="bold" fill="#0d5c5c">5. Exportar</text>
+    <text x="850" y="134" fill="#4a5568" font-size="13">al formato que use</text>
+    <text x="850" y="150" fill="#4a5568" font-size="13">tu mod o plugin</text>
+  </g>
+  <g stroke="#8a94a6" stroke-width="3" marker-end="url(#a)">
+    <line x1="172" y1="102" x2="200" y2="102"/>
+    <line x1="357" y1="102" x2="385" y2="102"/>
+    <line x1="542" y1="102" x2="570" y2="102"/>
+    <line x1="727" y1="102" x2="755" y2="102"/>
+  </g>
+  <text x="480" y="205" text-anchor="middle" font-size="14" fill="#4a5568">El archivo original nunca se modifica: todo lo que haces se guarda en un archivo nuevo o en un proyecto (.ssproj).</text>
+</svg>

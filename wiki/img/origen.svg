@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="360" rx="16" fill="#ffffff"/>
+  <defs><marker id="m" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#c2185b"/></marker></defs>
+
+  <text x="220" y="35" text-anchor="middle" font-size="17" font-weight="bold" fill="#2d3748">En Schematic Studio</text>
+  <!-- cuadrícula del modelo vista desde arriba -->
+  <g transform="translate(70,60)">
+    <rect x="0" y="0" width="300" height="220" fill="#eef7ea" stroke="#6b8e4e" stroke-width="2"/>
+    <g stroke="#cfdcc6" stroke-width="1">
+      <line x1="30" y1="0" x2="30" y2="220"/><line x1="60" y1="0" x2="60" y2="220"/><line x1="90" y1="0" x2="90" y2="220"/><line x1="120" y1="0" x2="120" y2="220"/><line x1="150" y1="0" x2="150" y2="220"/><line x1="180" y1="0" x2="180" y2="220"/><line x1="210" y1="0" x2="210" y2="220"/><line x1="240" y1="0" x2="240" y2="220"/><line x1="270" y1="0" x2="270" y2="220"/>
+      <line x1="0" y1="30" x2="300" y2="30"/><line x1="0" y1="60" x2="300" y2="60"/><line x1="0" y1="90" x2="300" y2="90"/><line x1="0" y1="120" x2="300" y2="120"/><line x1="0" y1="150" x2="300" y2="150"/><line x1="0" y1="180" x2="300" y2="180"/><line x1="0" y1="210" x2="300" y2="210"/>
+    </g>
+    <rect x="60" y="30" width="180" height="120" fill="#c8a165" stroke="#7a5a2a" stroke-width="2"/>
+    <text x="150" y="96" text-anchor="middle" font-size="15" fill="#3e2a10">casa</text>
+    <rect x="150" y="180" width="30" height="30" fill="none" stroke="#e040fb" stroke-width="4"/>
+    <text x="0" y="-8" font-size="12" fill="#4a5568">esquina mínima (0, 0)</text>
+    <circle cx="0" cy="0" r="5" fill="#4a5568"/>
+  </g>
+  <text x="220" y="305" text-anchor="middle" font-size="14" fill="#2d3748">El <tspan fill="#c2185b" font-weight="bold">bloque magenta</tspan> es el <tspan font-weight="bold">origen</tspan> (punto de pegado).</text>
+  <text x="220" y="327" text-anchor="middle" font-size="14" fill="#2d3748">De él salen los ejes rojo (X), verde (Y) y azul (Z).</text>
+
+  <path d="M410,170 L520,170" stroke="#c2185b" stroke-width="4" marker-end="url(#m)"/>
+  <text x="465" y="158" text-anchor="middle" font-size="13" fill="#c2185b">//paste</text>
+
+  <text x="700" y="35" text-anchor="middle" font-size="17" font-weight="bold" fill="#2d3748">En Minecraft (WorldEdit)</text>
+  <g transform="translate(550,60)">
+    <rect x="0" y="0" width="300" height="220" fill="#eef7ea" stroke="#6b8e4e" stroke-width="2"/>
+    <rect x="60" y="30" width="180" height="120" fill="#c8a165" stroke="#7a5a2a" stroke-width="2"/>
+    <text x="150" y="96" text-anchor="middle" font-size="15" fill="#3e2a10">casa</text>
+    <circle cx="165" cy="195" r="16" fill="#3d7be0"/>
+    <text x="165" y="201" text-anchor="middle" font-size="16" fill="#ffffff">🙂</text>
+  </g>
+  <text x="700" y="305" text-anchor="middle" font-size="14" fill="#2d3748">Al pegar, el origen queda donde está el jugador.</text>
+  <text x="700" y="327" text-anchor="middle" font-size="14" fill="#2d3748">Cambia el origen para que la casa aparezca donde quieras.</text>
+</svg>

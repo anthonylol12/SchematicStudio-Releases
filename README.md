@@ -14,7 +14,7 @@ Abre archivos **`.schem`** (WorldEdit), **`.schematic`** (MCEdit / Schematica), 
 
 ## ⬇️ Descargar
 
-Ve a **[Releases](../../releases/latest)** y descarga **`SchematicStudio-0.8.0-win-x64.zip`**.
+Ve a **[Releases](../../releases/latest)** y descarga **`SchematicStudio-0.8.1-win-x64.zip`**.
 
 1. Descomprime el `.zip`.
 2. Abre **`SchematicStudio.exe`**. No hace falta instalar nada (incluye todo lo necesario).
